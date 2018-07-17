@@ -1,0 +1,22 @@
+<assembly>
+  <id>distribution</id>
+  <includeBaseDirectory>false</includeBaseDirectory>
+  <formats>
+    <format>zip</format>
+    <format>dir</format>
+  </formats>
+
+  <dependencySets>
+    <dependencySet>
+      <outputDirectory>/</outputDirectory>
+      <scope>runtime</scope>
+      <includes>
+        <include>com.lightstep.ballerina:ballerina-lightstep-extension:jar</include>
+        <include>com.lightstep.tracer:lightstep-tracer-jre</include>
+        <include>com.lightstep.tracer:tracer-grpc</include>
+        <include>com.lightstep.tracer:java-common</include>
+      </includes>
+    </dependencySet>
+  </dependencySets>
+
+</assembly>
