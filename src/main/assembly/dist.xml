@@ -11,7 +11,7 @@
       <outputDirectory>/</outputDirectory>
       <scope>runtime</scope>
       <includes>
-        <include>com.lightstep.ballerina:ballerina-lightstep-extension:jar</include>
+        <include>com.lightstep.ballerina:lightstep-ballerina-extension:jar</include>
         <include>com.lightstep.tracer:lightstep-tracer-jre</include>
         <include>com.lightstep.tracer:tracer-grpc</include>
         <include>com.lightstep.tracer:java-common</include>
